@@ -1,6 +1,6 @@
 # nlpcc2016-chinese-weibo-segmentation
 
-Long Short-Term Memory (LSTM) based model for the NLPCC 2016 shared task - [Chinese Weibo word segmentation](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo). The model got 1st place in close and semi-open track. For more details on the model, refer to our paper [Recurrent Neural Word Segmentation with Tag Inference](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_66)
+Long Short-Term Memory (LSTM) based model for the NLPCC 2016 shared task - [Chinese Weibo word segmentation](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo). The model got 1st place in close and semi-open track. For more details, refer to our paper [Recurrent Neural Word Segmentation with Tag Inference](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_66)
 
 ## Requirement
 theano
