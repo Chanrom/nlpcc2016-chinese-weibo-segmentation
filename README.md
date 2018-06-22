@@ -3,13 +3,18 @@
 Long Short-Term Memory (LSTM) based model for the NLPCC 2016 shared task - [Chinese Weibo word segmentation](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo). The model got 1st place in close and semi-open track. For more details, refer to our paper [Recurrent Neural Word Segmentation with Tag Inference](https://link.springer.com/chapter/10.1007/978-3-319-50496-4_66)
 
 ## Requirement
-theano
-lasagne
+* theano
+* lasagne
 
 ## Notes
 * The original dataset for this task should be requested by filling up a [Agreement Form](https://github.com/FudanNLP/NLPCC-WordSeg-Weibo/blob/master/FDU_agreement_form.pdf). So here we only provide a few examples.
-* Once the original dataset is obtained, one should change the space-splited format to BMES tagging format.
+* Once the original dataset is obtained, one should change the space-splited format to ``BMES`` tagging format.
 * To get the unsupervised features, use scripts by Wu et al., 2014 [CistSegment](https://github.com/wugh/CistSegment)
+
+## Run
+* Preparing the data (see the Notes)
+* run the script ``ccl_nlpcc.py``
+* run the script ``chunkvec_inference.py``
 
 ## Citation
 If you use this software, please cite our paper.
