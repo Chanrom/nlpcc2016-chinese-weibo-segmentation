@@ -20,7 +20,7 @@ Long Short-Term Memory (LSTM) based model for the NLPCC 2016 shared task - [Chin
 If you use this software, please cite our paper.
 ```
 @InProceedings{zhou2016lstmtaginference,
-  Title                    = {ORecurrent neural word segmentation with tag inference},
+  Title                    = {Recurrent neural word segmentation with tag inference},
   Author                   = {Qianrong Zhou, Long Ma, Zhenyu Zheng, Yue Wang, and Xiaojie Wang},
   Booktitle                = {Proceedings of The Fifth Conference on Natural Language Processing and Chinese Computing \& The Twenty Fourth
 International Conference on Computer Processing of Oriental Languages},
